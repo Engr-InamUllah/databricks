@@ -1,0 +1,16 @@
+name: databricks
+owner: Engr-InamUllah
+status: scaffold
+stack: 'Databricks, PySpark, Delta Lake, SQL'
+pipeline:
+  - ingest
+  - explore
+  - transform
+  - optimize
+  - orchestrate
+engineering_standards:
+  incremental_processing: true
+  idempotent_runs: true
+  automated_quality_checks: true
+  secrets_in_source: false
+  operational_metrics: true
